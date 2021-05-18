@@ -20,5 +20,10 @@ print("Dimension of this array is", multi_arr.ndim) #an array inside an array is
 
 
 #creating special arrays 
-print(np.zeroes(10))  #1D array of 10 zeroes 
-print(np.zeroes((3,6))) #2D array with 6 elements in 
+print(np.zeros(10))  #1D array of 10 zeroes 
+print(np.zeros((3,6))) #2D array with 6 columns and 3 rows
+print(np.empty(2,3,2))  #helps to create an array without setting the entries 
+
+
+
+
