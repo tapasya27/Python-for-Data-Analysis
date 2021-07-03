@@ -49,4 +49,15 @@ print(arr_toslice)
 arr_toslice[5:8].copy() #to create a copy instead of a slice 
 
 print(multi_arr)
-print(multi_arr[0][3]) #should print 6
+print(multi_arr[0][3]) #should print 6.0 (float). Can also be written as multi_arr[0,3]
+
+#arihmeic operations
+
+print(arr_toslice)
+arr_toslice*arr_toslice #multiplication
+arr_toslice-arr_toslice  #subtraction
+#1/arr_toslice
+arr_toslice**0.5
+
+#slicing multi_array
+multi_arr[1]
